@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Initial demo post"
+date:   2015-11-01 20:46:00 +0200
+categories: jekyll update
+description : brief post description 1
+content: Main post content
+---

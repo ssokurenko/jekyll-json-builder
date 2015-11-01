@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Second demo post"
+date:   2015-11-01 20:48:00 +0200
+categories: jekyll update cms ruby rocks
+description : brief post description 2
+content: Second post content
+---

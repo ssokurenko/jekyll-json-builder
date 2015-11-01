@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Third demo post"
+date:   2015-11-01 20:55:00 +0200
+categories: node javascript
+description : brief post description 3
+content: Third post content
+---
