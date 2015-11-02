@@ -10,15 +10,10 @@ layout: null
     "categories" : [
     {% for category in post.categories%}
       "{{ category }}"
-      {% if forloop.index < forloop.length %}
-      ,
-    {% endif %}
+      {% include forloop-comma-separator %}
     {% endfor%}
     
     ]
   }
-   {% if forloop.index < forloop.length %}
-   ,
-   {% endif %}
-  {% endfor %}
+   {% include forloop-comma-separator %}
 }
