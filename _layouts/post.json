@@ -1,3 +1,9 @@
 {
-  
+  "type" : "{{ page.layout }}",
+  "title" : "{{ page.title }}",
+  "date" : "{{ page.date }}",
+  "description" : "{{ page.description }}",
+  "url" : "{{ page.url }}",
+  "content" : "{{ page.content }}",
+  "categories" : [{% for category in page.categories%}"{{ category }}"{% include forloop-comma-separator %}{% endfor%}]
 }

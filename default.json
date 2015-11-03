@@ -7,6 +7,7 @@ layout: null
     "title" : "{{ post.title }}",
     "date" : "{{ post.date }}",
     "description" : "{{ post.description }}",
+    "url" : "{{ post.url }}",
     "categories" : [{% for category in post.categories%}"{{ category }}"{% include forloop-comma-separator %}{% endfor%}]
   }{% include forloop-comma-separator %}
   {% endfor%}
