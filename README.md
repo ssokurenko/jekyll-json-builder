@@ -1,8 +1,9 @@
 # Jekyll JSON Builder project
 Light and optimized Jekyll setup for building custom content feeds in JSON format
 
-## Feed demo
-[Latest posts](http://ssokurenko.github.io/jekyll-json-builder/default.json)
+## Live Demo
+- Latest posts: http://ssokurenko.github.io/jekyll-json-builder/default.json
+- Post example: http://ssokurenko.github.io/jekyll-json-builder/post/2015/11/01/demo-post-3/
 
 ## Installation
 Fork the project and open the folder in Terminal `cd yourpath/jekyll-json-builder`.
